@@ -40,6 +40,8 @@ const Login = () => {
         <div className="flex items-center justify-center min-h-screen bg-gray-100 px-4">
             <form onSubmit={loginUser} className="bg-white p-6 rounded-lg shadow-md max-w-md w-full max-w-md">
                 <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
+                <h3 className="text-xl font-bold mb-6 text-center">For testing use following credentials</h3>
+                <h3 className="text-xl text-red-600 font-bold mb-6 text-center">Email: dummyuser@gmail.com & Password: 123456</h3>
                 <label className="block mb-1 text-gray-700">Email</label>
                 <input
                     type="email"
